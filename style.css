@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.story {
+    background: linear-gradient(180deg, #1D0249 0.38%, #020F1B 99.69%, #0A3D6C 99.69%);
+    height: 100vh;
+}
+
+.menu a {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 30px */
+    letter-spacing: 0.8px;
+    text-transform: capitalize;
+    text-decoration: none;
+    margin-left: 30px;
+    transition: all 0.5s;
+}
+
+.menu a:first-child {
+    margin-left: 0;
+}
+
+.menu a:hover {
+    color: #F7D521;
+}
+
+h2 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    /* 96px */
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.contact {
+    color: #020F1B;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    /* 33px */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 30px;
+    border: 1px solid #000;
+    background: #F7D521;
+    padding: 22px 50px 22px 50px;
+    display: inline-block;
+    transition: all 0.5s;
+}
+
+.contact:hover {
+    background: #ffae00;
+}
+
+.year {
+    color: #F7D521;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 30px */
+    letter-spacing: 0.8px;
+    text-transform: capitalize;
+}
+
+.rights {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 30px */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.center {
+    text-align: center;
+}
+
+@media(max-width: 700px) {
+    .top {
+        display: block;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 50px;
+    }
+}
+
+@media(max-width: 450px) {
+    .menu a {
+        font-size: 16px;
+        margin-left: 22px;
+    }
+
+    .rights {
+        font-size: 16px;
+    }
+
+    .year {
+        font-size: 16px;
+    }
+}
